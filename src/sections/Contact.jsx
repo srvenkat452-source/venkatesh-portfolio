@@ -4,6 +4,8 @@ import {
   FiPhone,
   FiLinkedin,
   FiGithub,
+  FiInstagram,
+  FiFacebook,
   FiMapPin,
   FiClock
 } from 'react-icons/fi';
@@ -38,14 +40,22 @@ export default function Contact() {
           </div>
 
           <div className="info-item">
+            <FiInstagram className="info-icon" />
+            <a href="https://www.instagram.com/subramanyamvenkatraman/" target="_blank" rel="noopener noreferrer">
+              Instagram.com/subramanyamvenkatraman
+            </a>
+          </div>
+                    <div className="info-item">
+            <FiFacebook className="info-icon" />
+            <a href="https://www.facebook.com/Venki.s.online/" target="_blank" rel="noopener noreferrer">
+              Facebook.com/Venki.s.online
+            </a>
+          </div>
+          <div className="info-item">
             <FiMapPin className="info-icon" />
-            <span>Chennai (IST)</span>
+            <span>Chennai, India (IST)</span>
           </div>
 
-          <div className="info-item">
-            <FiClock className="info-icon" />
-            <span>Timezone: PST (GMT-7)</span>
-          </div>
         </div>
       </div>
     </section>
