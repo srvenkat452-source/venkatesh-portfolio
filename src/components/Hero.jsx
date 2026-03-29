@@ -31,7 +31,7 @@ function Hero() {
           </span>
         </h1>
         <p className="hero-description">
-          A passionate Full Stack Developer and Master’s student in Computer Science at California State University, Fullerton.
+          A passionate Full Stack Developer and Team Lead building scalable systems at Tier-1 product companies like PayPal and leading global financial institutions including Bank of America and Citigroup.
         </p>
 
         <div className="hero-bottom">
